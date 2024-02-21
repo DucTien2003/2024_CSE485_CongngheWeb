@@ -3,7 +3,14 @@
     margin: 0;
     padding: 0;
   }
-  
+  body{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 350px 350px;
+    grid-gap: 20px;
+    bottom: 100px;
+    margin-top: 80px;
+}
   .course {
     background-color: #f9f9f9;
     padding: 15px;
