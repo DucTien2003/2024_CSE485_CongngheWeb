@@ -5,6 +5,7 @@ body{
     grid-gap: 20px;
     bottom: 100px;
     margin-top: 80px;
+    padding-left: 20px;
 }
 .red-title {  
     color: #8B0000 !important;
@@ -36,7 +37,14 @@ body{
 .course p {
     color: #666;
     text-align: justify;
+    
     }
 h3:hover {
     color: red;
+    cursor: pointer;
     }
+/* .material-icons{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+} */

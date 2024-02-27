@@ -1,0 +1,64 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+html{
+    border: 1px solid rgb(241, 121, 157);
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 50%;
+    color:rgb(86, 83, 83);
+    /* height: 90%; */
+    font-size: 18px;
+    /* text-align:start; */
+    /* padding: 20px; */
+}
+
+.card {
+    background-color: #e9d9d9;
+    border-radius: 10px;
+    padding: 15px;
+     display: flex; /*or display: grid; */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    /* justify-content: center; */
+    /* text-align: left; */
+    /* margin-bottom: 20px; */
+    position: relative;
+  }
+  .form-container {
+    /* display:ce */
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    color:rgb(86, 83, 83);
+    }
+.avt{
+    margin-left: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-40%, 35%);  
+}
+
+button[type="change"] {
+    color: red;
+    margin-left: 16px;
+    font-size: 16px;
+  }
+p:hover {
+    color: red;
+    cursor: pointer;
+    }
+button:hover{
+    background-color: rgb(236, 152, 169);
+    cursor: pointer;
+    }
+
+ 
+
