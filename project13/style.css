@@ -18,10 +18,10 @@
     width: calc(100% / 3);
   }
   
-  .course h2 {
-    color: #333;
-    padding-top: 10px;
-  }
+  /*.course h2 {
+    color:red;
+   padding-top: 10px;
+  }*/
   
   .course p {
     color: #666;
@@ -52,4 +52,6 @@
   .item {
     display: flex;
   }
-  
+ .title1{
+  color: red;
+ } 

@@ -16,6 +16,7 @@
    // Dữ liệu khóa học lưu động trong mảng
    $courses = [
       [
+         'img'=>'./project13/2.png',
          'title' => 'Học viên quốc tế',
          'description' => 'Chương trình đào tạo chính thức tại Việt Nam từ
       Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trình viên
@@ -25,6 +26,7 @@
          'duration' => '2 - 2.5 năm'
       ],
       [
+         'img'=>'./project13/3.png',
          'title' => 'Lập trình web fullstack',
          'description' => 'Chương trình đào tạo chính thức tại Việt Nam từ
    Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trình viên
@@ -34,6 +36,7 @@
          'duration' => '2 - 2.5 năm'
       ],
       [
+         'img'=>'./project13/4.png',
          'title' => 'Lập trình java fullstack',
          'description' => 'Chương trình đào tạo chính thức tại Việt Nam từ
    Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trình viên
@@ -43,6 +46,7 @@
          'duration' => '2 - 2.5 năm'
       ],
       [
+         'img'=>'./project13/2.png',
          'title' => 'Lập trình PHP & Laravel',
          'description' => 'Chương trình đào tạo chính thức tại Việt Nam từ
    Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trình viên
@@ -52,6 +56,7 @@
          'duration' => '2 - 2.5 năm'
       ],
       [
+         'img'=>'./project13/3.png',
          'title' => 'Khóa học lập trình.net',
          'description' => 'Chương trình đào tạo chính thức tại Việt Nam từ
    Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trình viên
@@ -61,6 +66,7 @@
          'duration' => '2 - 2.5 năm'
       ],
       [
+         'img'=>'./project13/4.png',
          'title' => 'Lập trình SQL Server',
          'description' => 'Chương trình đào tạo chính thức tại Việt Nam từ
    Aptech Global. Phát triển nghề nghiệp sinh viên IT như một lập trình viên
@@ -75,7 +81,7 @@
 
    foreach ($courses as $course) {
       echo '<div class="course">';
-      echo '<img class="main-image" src="./project13/2.png" alt="image" />';
+      echo '<img src='.$course["img"].' alt="" width="160px" height="80px">';
       echo '<h3>' . $course['title'] . '</h3>';
       echo '<p class="description">' . $course['description'] . '</p>';
       echo '<div class="item"><img src="./project13/gift.svg" alt="image" /><p>Học phí: ' . $course['fee'] . '</p></div>';

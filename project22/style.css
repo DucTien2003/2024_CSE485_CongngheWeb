@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 150px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: rgb(208, 41, 41);
+    border: 1px solid whitesmoke;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .item label {
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .avatar img {
+    border-radius: 9999px;
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  html{
+    border: 2px solid rgb(136, 113, 173);
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 50%;
+    box-shadow: 0 1px 3px gray;;
+  }
+  
