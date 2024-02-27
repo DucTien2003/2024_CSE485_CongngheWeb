@@ -81,7 +81,7 @@
     foreach ($products as $index => $product) {
         if ($index < $itemsPerPage * $currentPage && $index >= $itemsPerPage * ($currentPage - 1)) {
             echo '<div class="product">';            
-            echo '<img src='.$product["img"].' alt="" width="180px" height ="150px">';
+            echo '<img src='.$product["img"].' alt="" width="160px" height ="160px">';
             echo '<h3>' . $product['name'] . '</h3>';
             echo '<p class="description">'. $product['description']. '</p>';
             echo '<p class="price">'. $product['price'].'</p>';
